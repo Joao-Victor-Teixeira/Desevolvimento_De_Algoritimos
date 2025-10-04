@@ -21,7 +21,7 @@ A implementação segue a lógica descrita no fluxograma do material "Técnicas 
 1.  Compile o arquivo: `javac NomeDoArquivo.java`
 2.  Execute o programa: `java NomeDoArquivo`
 
- Algoritmo em pseudocódigo:
+ ## Algoritmo em pseudocódigo:
  algoritmo “exemplo1”
  // Função: multiplicar dois números
  // seção de declarações de variáveis e constantes
