@@ -21,7 +21,7 @@ A implementação segue a lógica descrita no material "Técnicas de Desenvolvim
 1.  Compile o arquivo: `javac App.java`
 2.  Execute o programa: `java App`
 
- algoritmo “exemplo2”
+ ## Algoritmo “exemplo2”
  // Função: calcular a divisão de dois números
  // seção de declarações de variáveis e constantes
  var n1, n2, d: real
