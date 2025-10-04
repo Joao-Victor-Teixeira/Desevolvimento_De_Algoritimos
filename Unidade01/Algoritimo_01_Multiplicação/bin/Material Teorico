@@ -1,0 +1,35 @@
+# Projeto: Multiplicação de Dois Números
+
+Este projeto implementa em Java um algoritmo simples para calcular e exibir o resultado da multiplicação entre dois números.
+
+## Objetivo do Algoritmo
+
+O objetivo é receber dois números, multiplicá-los e, em seguida, mostrar o resultado obtido.
+
+## Lógica Utilizada
+
+A implementação segue a lógica descrita no fluxograma do material "Técnicas de Desenvolvimento de Algoritmos":
+
+1.  **Início do programa**.
+2.  **Entrada**: Recebe dois valores numéricos (`n1`, `n2`).
+3.  **Processamento**: Calcula `m = n1 * n2`.
+4.  **Saída**: Exibe o resultado `m`.
+5.  **Fim do programa**.
+
+## Como Executar
+
+1.  Compile o arquivo: `javac NomeDoArquivo.java`
+2.  Execute o programa: `java NomeDoArquivo`
+
+ Algoritmo em pseudocódigo:
+ algoritmo “exemplo1”
+ // Função: multiplicar dois números
+ // seção de declarações de variáveis e constantes
+ var n1, n2, m: real
+ inicio
+      escreval (“digite dois números”)
+      leia (n1)
+      leia (n2)
+      m <- n1 * n2
+      escreva (“Multiplicação = “,m)
+ fimalgoritmo
