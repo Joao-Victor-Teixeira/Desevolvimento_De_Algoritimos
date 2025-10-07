@@ -1,0 +1,35 @@
+# Projeto: Cálculo de Média Ponderada
+
+Este projeto, referente ao Capítulo 2, implementa em Java um algoritmo para calcular a média ponderada entre duas notas com pesos pré-definidos.
+
+## Objetivo do Algoritmo
+
+O objetivo é "calcular a média ponderada entre duas notas, cujos pesos são 2 e 3". A fórmula utilizada é `(nota1 * 2 + nota2 * 3) / 5`.
+
+## Lógica Utilizada
+
+A implementação segue a lógica sequencial descrita no fluxograma do material "Técnicas de Desenvolvimento de Algoritmos":
+
+1.  **Entrada**: Recebe as duas notas do aluno.
+2.  **Processamento**: Aplica a fórmula da média ponderada para calcular o resultado.
+3.  **Saída**: Exibe o resultado da média ponderada.
+
+## Como Executar
+
+1.  Compile o arquivo: `javac App.java`
+2.  Execute o programa: `java App`
+
+ ## Algoritmo “exemplo6”
+ // Função: calcular a média ponderada entre duas notas
+ // peso da primeira nota = 2
+ // peso da segunda nota = 3
+ // seção de declarações de variáveis e constantes
+ var nt1, nt2, mp: real
+ inicio
+      escreva (“digite a primeira nota”)
+      leia (nt1)
+      escreva (“digite a segunda nota”)
+      leia (nt2)
+      mp <- (nt1 * 2 + nt2 * 3)/5
+      escreva (“Média ponderada = “,mp)
+ fimalgoritmo

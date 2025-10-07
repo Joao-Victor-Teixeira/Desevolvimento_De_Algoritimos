@@ -1,0 +1,35 @@
+# Projeto: Calculadora de Descontos
+
+Este projeto, referente ao Capítulo 2, implementa em Java um algoritmo que calcula o preço final de um produto após aplicar um percentual de desconto informado pelo usuário.
+
+## Objetivo do Algoritmo
+
+O objetivo é "calcular o novo preço de um produto, sabendo que o percentual de desconto será informado pelo usuário".
+
+## Lógica Utilizada
+
+A implementação segue a lógica sequencial descrita no fluxograma do material "Técnicas de Desenvolvimento de Algoritmos":
+
+1.  **Entrada**: Recebe o preço original e o percentual de desconto.
+2.  **Processamento**: Calcula o valor do desconto e o subtrai do preço original.
+3.  **Saída**: Exibe o novo preço com o desconto aplicado.
+
+## Como Executar
+
+1.  Compile o arquivo: `javac App.java`
+2.  Execute o programa: `java App`
+
+ ## Algoritmo “exemplo7”
+ // Função: calcular o novo preço de um produto
+ // o percentual de desconto será informado pelo usuário
+ // seção de declarações de variáveis e constantes
+ var preco, perc, novo: real
+ 18
+ inicio
+      escreva (“digite o preço “)
+      leia (preco)
+      escreva (“digite o percentual “)
+      leia (perc)
+      novo <- (preco - (preco * perc/100))
+      escreva (“Novo preço = “,novo)
+ fimalgoritmo

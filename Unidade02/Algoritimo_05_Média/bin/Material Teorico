@@ -1,0 +1,35 @@
+# Projeto: Cálculo de Média Aritmética
+
+Este projeto, referente ao Capítulo 2 do curso, implementa em Java um algoritmo de estrutura sequencial para calcular a média aritmética entre duas notas.
+
+## Objetivo do Algoritmo
+
+O objetivo é "calcular a média aritmética entre duas notas", seguindo uma estrutura puramente sequencial: entrada, processamento e saída.
+
+## Lógica Utilizada
+
+A implementação segue a lógica descrita no fluxograma do material "Técnicas de Desenvolvimento de Algoritmos":
+
+1.  **Entrada**: Recebe as duas notas.
+2.  **Processamento**: Calcula a média (`media = (nota1 + nota2) / 2`).
+3.  **Saída**: Exibe o resultado da média.
+
+## Como Executar
+
+1.  Compile o arquivo: `javac App.java`
+2.  Execute o programa: `java App`
+
+ ## A seguir, o EXEMPLO 5 em pseudocódigo.
+ 
+ // Função: calcular a média aritmética entre duas notas
+ // seção de declarações de variáveis e constantes
+ var nota1, nota2, media: real
+ inicio
+      escreval (“digite a primeira nota”)
+      leia (nota1)
+      escreval (“digite a segunda nota”)
+      leia (nota2)
+      media <- (nota1 + nota2)/2
+      escreval (“Média = “,media)
+ fimalgoritmo
+ 
